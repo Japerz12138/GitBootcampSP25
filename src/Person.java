@@ -5,6 +5,8 @@ public class person{
         this.name = name;
     }
 
+    public Person(){name = "No Name yet";}
+
     public String getName() {
         return name;
     }
